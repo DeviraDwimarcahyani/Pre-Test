@@ -1,0 +1,19 @@
+1. What is the data-type usually used in arithmetic operation?
+As long as i know, there are lot of data-type in arithmetic operations. Such as :
+a. Integer
+Is a data-type that will be used for numeric if it doesnt contain fraction or decimal number. Integer also can be used for positive value and negative value. Numeric data-type that belong into integer likes Byte (usually used for stream data from a file or network, it usually used for read/write process), Short (usually used for computer 16-bit), Int (usually used for repetition structure or for array), and Long (usually used if the data had range outside the Int). 
+b. Floating Point
+Is a data-type that will be used for numeric if the data contains fraction or decimal number likes 2.1887,90 etc. This condition can be called as riil number. There are two kind of floating point likes float and double. All fraction or decimal number that end with "F" alphabet will be categorized as float, but if it doesnt end with "F" it will be categorized as double. 
+c. Char
+Is a data-type that  will be used  to represent character. This data-type following the unicode rule. Unicode is a set of characters that already available in all languages (latin, arabaic, etc). Java use this unicode character to represent all character. Java use the unicode character that needed 16 bit. 
+d. Boolean
+Is a data-type that will be used to make decision. Because this data-type only have two values likes true and false. 
+e. String
+Is a data-type that usually used in programming. Because, this data-type contains set of character with certain length. 
+
+2. What is the data-type usually used in word and character?
+The data-type that usually used in word and character are char and string
+
+
+
+
