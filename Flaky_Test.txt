@@ -1,0 +1,13 @@
+1. What is a flaky test?
+
+Flaky test is a test that the result can be fail or pass in the same configuration condition. This condition can make confused because test failuers dont always indicate bugs in the code. But, this test particularly give affect with board scope such as acceptance, functional / UI test. 
+
+2. An element in a website is using ajax/javascript to show the data (processed as
+asynchronous). What do you do to test that element?
+
+If i find that condition, we can thought about it more and then need three sources of asynchronous code that we needed likes AJAX calls (calls to setTimeout or setInterval). We also should able to monitor AJAX calls using jQuery.active with jQuery. Then we need to override the implementation to do some monitoring. The important thing is, if all three are clear, it’s impossible for the browser to run more code or change its state until we perform some UI action. Therefore the current state of the application is safe to query for our test.
+
+3. A website page can only be accessed with CAPTCHA. How do you test that page?
+
+Well, maybe asked the dev team first to make a solution to configure CAPTCHA in test environment in condition to always accept 1 specific value or maybe make an API of CAPTCHA generation for testing environment
+
